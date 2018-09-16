@@ -2,7 +2,9 @@ new Vue({
   el: '#vue-app',
   data: {
     name: 'Tom',
-    sigh: 'Fool'
+    sigh: 'Fool',
+    website: 'https://google.com',
+    websiteTag: '<a href="https://google.com">Google Link</a>'
   },
   methods: {
     greet: function(greeting) {
